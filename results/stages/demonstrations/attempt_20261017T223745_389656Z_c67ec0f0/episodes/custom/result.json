@@ -1,0 +1,266 @@
+{
+  "status": "complete",
+  "success": true,
+  "failure": "",
+  "accepted": true,
+  "validation_reason": "accepted",
+  "diagnostic": false,
+  "planner_source": "llm",
+  "monitor_mode": "age",
+  "planned_targets": [
+    "B",
+    "A"
+  ],
+  "completed_targets": [
+    "B",
+    "A"
+  ],
+  "captures": [
+    "capture_00_B.png",
+    "capture_01_A.png"
+  ],
+  "artifact_hashes": {
+    "plan.json": "d8688a636b0611b026d9de909580c14eab9b5aff2e489e584bdf94546923d7a1",
+    "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+    "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+    "trajectory.csv": "3cb902516348e60f4b6928f5101d2b70ee8180144d4e6548c1d36e02462684aa",
+    "capture_00_B.png": "4e10040d0bf7cabd724c6baabf3a149b8b0176fe56e3b45bcd3c167aea5007c5",
+    "capture_01_A.png": "e0794b54b215ec6986faaf33fc12131284f1bbd4760f1fd015f303e2defb8902",
+    "clip.mp4": "2059b7968a81734543b236bd3635638a5f5d7464e0e2bb6f34743d7ecbefd0e8",
+    "observation_events.json": "6a8845b4a36bee8653bdd26848ff91a93a624d37de7ef762ce6624a92aceabe3"
+  },
+  "events": [
+    {
+      "event": "start",
+      "sim_time_s": 0.22,
+      "segment": "APPROACH",
+      "observation": {
+        "sequence_id": 2,
+        "capture_time": 0.2,
+        "receive_time": 0.22
+      },
+      "distinct_new_observations": 3,
+      "distinct_delivery_ticks": 3,
+      "new_observation_delivery_span_s": 0.2,
+      "joint_speed_norm": 0.0,
+      "hold_pose_error_norm_rad": 0.0
+    },
+    {
+      "event": "segment_plan",
+      "reason": "start",
+      "sim_time_s": 0.22,
+      "segment": "APPROACH",
+      "target": "B",
+      "observation": {
+        "sequence_id": 2,
+        "capture_time": 0.2,
+        "receive_time": 0.22
+      },
+      "goal_xyz": [
+        0.49,
+        0.0,
+        0.48
+      ]
+    },
+    {
+      "event": "segment_plan",
+      "reason": "next_segment",
+      "sim_time_s": 1.82,
+      "segment": "DESCEND",
+      "target": "B",
+      "observation": {
+        "sequence_id": 18,
+        "capture_time": 1.8,
+        "receive_time": 1.82
+      },
+      "goal_xyz": [
+        0.49,
+        0.0,
+        0.31
+      ]
+    },
+    {
+      "event": "segment_plan",
+      "reason": "next_segment",
+      "sim_time_s": 3.24,
+      "segment": "INSPECT",
+      "target": "B",
+      "observation": {
+        "sequence_id": 32,
+        "capture_time": 3.2,
+        "receive_time": 3.22
+      },
+      "goal_xyz": [
+        0.49,
+        0.0,
+        0.31
+      ]
+    },
+    {
+      "event": "capture",
+      "target": "B",
+      "sim_time_s": 4.06,
+      "error_m": 2.4581951613844726e-08,
+      "file": "capture_00_B.png",
+      "used_observation": {
+        "sequence_id": 32,
+        "capture_time": 3.2,
+        "receive_time": 3.22
+      },
+      "latest_observation": {
+        "sequence_id": 40,
+        "capture_time": 4.0,
+        "receive_time": 4.02
+      }
+    },
+    {
+      "event": "segment_plan",
+      "reason": "next_segment",
+      "sim_time_s": 4.06,
+      "segment": "LIFT",
+      "target": "B",
+      "observation": {
+        "sequence_id": 40,
+        "capture_time": 4.0,
+        "receive_time": 4.02
+      },
+      "goal_xyz": [
+        0.49,
+        0.0,
+        0.48
+      ]
+    },
+    {
+      "event": "segment_plan",
+      "reason": "next_segment",
+      "sim_time_s": 5.4,
+      "segment": "APPROACH",
+      "target": "A",
+      "observation": {
+        "sequence_id": 53,
+        "capture_time": 5.3,
+        "receive_time": 5.32
+      },
+      "goal_xyz": [
+        0.47,
+        -0.2,
+        0.48
+      ]
+    },
+    {
+      "event": "segment_plan",
+      "reason": "next_segment",
+      "sim_time_s": 7.02,
+      "segment": "DESCEND",
+      "target": "A",
+      "observation": {
+        "sequence_id": 70,
+        "capture_time": 7.0,
+        "receive_time": 7.02
+      },
+      "goal_xyz": [
+        0.47,
+        -0.2,
+        0.31
+      ]
+    },
+    {
+      "event": "segment_plan",
+      "reason": "next_segment",
+      "sim_time_s": 8.44,
+      "segment": "INSPECT",
+      "target": "A",
+      "observation": {
+        "sequence_id": 84,
+        "capture_time": 8.4,
+        "receive_time": 8.42
+      },
+      "goal_xyz": [
+        0.47,
+        -0.2,
+        0.31
+      ]
+    },
+    {
+      "event": "capture",
+      "target": "A",
+      "sim_time_s": 9.24,
+      "error_m": 3.0294494981196585e-08,
+      "file": "capture_01_A.png",
+      "used_observation": {
+        "sequence_id": 84,
+        "capture_time": 8.4,
+        "receive_time": 8.42
+      },
+      "latest_observation": {
+        "sequence_id": 92,
+        "capture_time": 9.2,
+        "receive_time": 9.22
+      }
+    },
+    {
+      "event": "segment_plan",
+      "reason": "next_segment",
+      "sim_time_s": 9.24,
+      "segment": "LIFT",
+      "target": "A",
+      "observation": {
+        "sequence_id": 92,
+        "capture_time": 9.2,
+        "receive_time": 9.22
+      },
+      "goal_xyz": [
+        0.47,
+        -0.2,
+        0.48
+      ]
+    },
+    {
+      "event": "segment_plan",
+      "reason": "next_segment",
+      "sim_time_s": 10.58,
+      "segment": "HOME",
+      "target": "",
+      "observation": {
+        "sequence_id": 105,
+        "capture_time": 10.5,
+        "receive_time": 10.52
+      },
+      "goal_xyz": [
+        0.28,
+        -0.27,
+        0.57
+      ]
+    }
+  ],
+  "run_dir": "custom",
+  "sim_duration_s": 13.42,
+  "duration_s": 13.42,
+  "video_frames": 268,
+  "video_duration_s": 13.4,
+  "hold_s": 0.0,
+  "stale_s": 0.0,
+  "stale_moving_s": 0.0,
+  "unprotected_stale_s": 0.0,
+  "max_hold_drift_m": 0.0,
+  "first_fault_to_hold_command_s": null,
+  "first_threshold_exceedance_to_detection_s": null,
+  "first_detection_to_hold_command_s": null,
+  "first_hold_command_to_stationary_s": null,
+  "inspection_error_mean_m": 2.7438223297520656e-08,
+  "contact_samples": 0,
+  "min_robot_contact_distance_m": null,
+  "contact_abnormal_threshold_m": -0.001,
+  "metric_sample_hz": 200,
+  "trajectory_log_hz": 50,
+  "resume_pose_error_limit_rad": 0.03,
+  "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+  "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+  "communication_scenario": "normal",
+  "freshness_guard": true,
+  "fault_injected": false,
+  "task_completion_time_s": 12.400000000000539,
+  "clip_file": "clip.mp4",
+  "accepted_observations": 135,
+  "rejected_observations": 0
+}

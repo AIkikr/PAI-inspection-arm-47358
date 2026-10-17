@@ -1,0 +1,1013 @@
+[
+  {
+    "sim_time_s": 0.02,
+    "sequence_id": 0,
+    "capture_time": 0.0,
+    "receive_time": 0.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.12,
+    "sequence_id": 1,
+    "capture_time": 0.1,
+    "receive_time": 0.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.22,
+    "sequence_id": 2,
+    "capture_time": 0.2,
+    "receive_time": 0.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.32,
+    "sequence_id": 3,
+    "capture_time": 0.3,
+    "receive_time": 0.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.42,
+    "sequence_id": 4,
+    "capture_time": 0.4,
+    "receive_time": 0.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.52,
+    "sequence_id": 5,
+    "capture_time": 0.5,
+    "receive_time": 0.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.62,
+    "sequence_id": 6,
+    "capture_time": 0.6,
+    "receive_time": 0.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.72,
+    "sequence_id": 7,
+    "capture_time": 0.7,
+    "receive_time": 0.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.82,
+    "sequence_id": 8,
+    "capture_time": 0.8,
+    "receive_time": 0.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 0.92,
+    "sequence_id": 9,
+    "capture_time": 0.9,
+    "receive_time": 0.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.02,
+    "sequence_id": 10,
+    "capture_time": 1.0,
+    "receive_time": 1.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.12,
+    "sequence_id": 11,
+    "capture_time": 1.1,
+    "receive_time": 1.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.22,
+    "sequence_id": 12,
+    "capture_time": 1.2,
+    "receive_time": 1.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.32,
+    "sequence_id": 13,
+    "capture_time": 1.3,
+    "receive_time": 1.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.42,
+    "sequence_id": 14,
+    "capture_time": 1.4,
+    "receive_time": 1.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.52,
+    "sequence_id": 15,
+    "capture_time": 1.5,
+    "receive_time": 1.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.62,
+    "sequence_id": 16,
+    "capture_time": 1.6,
+    "receive_time": 1.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.72,
+    "sequence_id": 17,
+    "capture_time": 1.7,
+    "receive_time": 1.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.82,
+    "sequence_id": 18,
+    "capture_time": 1.8,
+    "receive_time": 1.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 1.92,
+    "sequence_id": 19,
+    "capture_time": 1.9,
+    "receive_time": 1.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 2.02,
+    "sequence_id": 20,
+    "capture_time": 2.0,
+    "receive_time": 2.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 2.12,
+    "sequence_id": 21,
+    "capture_time": 2.1,
+    "receive_time": 2.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 2.22,
+    "sequence_id": 22,
+    "capture_time": 2.2,
+    "receive_time": 2.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 2.32,
+    "sequence_id": 23,
+    "capture_time": 2.3,
+    "receive_time": 2.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 2.42,
+    "sequence_id": 24,
+    "capture_time": 2.4,
+    "receive_time": 2.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 6.52,
+    "sequence_id": 65,
+    "capture_time": 6.5,
+    "receive_time": 6.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 6.62,
+    "sequence_id": 66,
+    "capture_time": 6.6,
+    "receive_time": 6.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 6.66,
+    "sequence_id": 42,
+    "capture_time": 4.2,
+    "receive_time": 6.65,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 6.66,
+    "sequence_id": 63,
+    "capture_time": 6.3,
+    "receive_time": 6.65,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 6.68,
+    "sequence_id": 28,
+    "capture_time": 2.8,
+    "receive_time": 6.68,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 6.68,
+    "sequence_id": 49,
+    "capture_time": 4.9,
+    "receive_time": 6.68,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 6.72,
+    "sequence_id": 35,
+    "capture_time": 3.5,
+    "receive_time": 6.71,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 6.72,
+    "sequence_id": 56,
+    "capture_time": 5.6,
+    "receive_time": 6.71,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 6.72,
+    "sequence_id": 67,
+    "capture_time": 6.7,
+    "receive_time": 6.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 6.74,
+    "sequence_id": 65,
+    "capture_time": 6.5,
+    "receive_time": 6.73,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 6.82,
+    "sequence_id": 68,
+    "capture_time": 6.8,
+    "receive_time": 6.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 6.84,
+    "sequence_id": 66,
+    "capture_time": 6.6,
+    "receive_time": 6.83,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 6.92,
+    "sequence_id": 69,
+    "capture_time": 6.9,
+    "receive_time": 6.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 6.94,
+    "sequence_id": 67,
+    "capture_time": 6.7,
+    "receive_time": 6.93,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 7.02,
+    "sequence_id": 70,
+    "capture_time": 7.0,
+    "receive_time": 7.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.04,
+    "sequence_id": 68,
+    "capture_time": 6.8,
+    "receive_time": 7.03,
+    "event": "observation_rejected",
+    "reason": "duplicate_or_out_of_order"
+  },
+  {
+    "sim_time_s": 7.12,
+    "sequence_id": 71,
+    "capture_time": 7.1,
+    "receive_time": 7.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.22,
+    "sequence_id": 72,
+    "capture_time": 7.2,
+    "receive_time": 7.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.32,
+    "sequence_id": 73,
+    "capture_time": 7.3,
+    "receive_time": 7.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.42,
+    "sequence_id": 74,
+    "capture_time": 7.4,
+    "receive_time": 7.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.52,
+    "sequence_id": 75,
+    "capture_time": 7.5,
+    "receive_time": 7.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.62,
+    "sequence_id": 76,
+    "capture_time": 7.6,
+    "receive_time": 7.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.72,
+    "sequence_id": 77,
+    "capture_time": 7.7,
+    "receive_time": 7.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.82,
+    "sequence_id": 78,
+    "capture_time": 7.8,
+    "receive_time": 7.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 7.92,
+    "sequence_id": 79,
+    "capture_time": 7.9,
+    "receive_time": 7.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.02,
+    "sequence_id": 80,
+    "capture_time": 8.0,
+    "receive_time": 8.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.12,
+    "sequence_id": 81,
+    "capture_time": 8.1,
+    "receive_time": 8.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.22,
+    "sequence_id": 82,
+    "capture_time": 8.2,
+    "receive_time": 8.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.32,
+    "sequence_id": 83,
+    "capture_time": 8.3,
+    "receive_time": 8.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.42,
+    "sequence_id": 84,
+    "capture_time": 8.4,
+    "receive_time": 8.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.52,
+    "sequence_id": 85,
+    "capture_time": 8.5,
+    "receive_time": 8.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.62,
+    "sequence_id": 86,
+    "capture_time": 8.6,
+    "receive_time": 8.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.72,
+    "sequence_id": 87,
+    "capture_time": 8.7,
+    "receive_time": 8.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.82,
+    "sequence_id": 88,
+    "capture_time": 8.8,
+    "receive_time": 8.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 8.92,
+    "sequence_id": 89,
+    "capture_time": 8.9,
+    "receive_time": 8.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.02,
+    "sequence_id": 90,
+    "capture_time": 9.0,
+    "receive_time": 9.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.12,
+    "sequence_id": 91,
+    "capture_time": 9.1,
+    "receive_time": 9.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.22,
+    "sequence_id": 92,
+    "capture_time": 9.2,
+    "receive_time": 9.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.32,
+    "sequence_id": 93,
+    "capture_time": 9.3,
+    "receive_time": 9.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.42,
+    "sequence_id": 94,
+    "capture_time": 9.4,
+    "receive_time": 9.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.52,
+    "sequence_id": 95,
+    "capture_time": 9.5,
+    "receive_time": 9.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.62,
+    "sequence_id": 96,
+    "capture_time": 9.6,
+    "receive_time": 9.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.72,
+    "sequence_id": 97,
+    "capture_time": 9.7,
+    "receive_time": 9.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.82,
+    "sequence_id": 98,
+    "capture_time": 9.8,
+    "receive_time": 9.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 9.92,
+    "sequence_id": 99,
+    "capture_time": 9.9,
+    "receive_time": 9.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.02,
+    "sequence_id": 100,
+    "capture_time": 10.0,
+    "receive_time": 10.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.12,
+    "sequence_id": 101,
+    "capture_time": 10.1,
+    "receive_time": 10.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.22,
+    "sequence_id": 102,
+    "capture_time": 10.2,
+    "receive_time": 10.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.32,
+    "sequence_id": 103,
+    "capture_time": 10.3,
+    "receive_time": 10.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.42,
+    "sequence_id": 104,
+    "capture_time": 10.4,
+    "receive_time": 10.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.52,
+    "sequence_id": 105,
+    "capture_time": 10.5,
+    "receive_time": 10.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.62,
+    "sequence_id": 106,
+    "capture_time": 10.6,
+    "receive_time": 10.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.72,
+    "sequence_id": 107,
+    "capture_time": 10.7,
+    "receive_time": 10.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.82,
+    "sequence_id": 108,
+    "capture_time": 10.8,
+    "receive_time": 10.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 10.92,
+    "sequence_id": 109,
+    "capture_time": 10.9,
+    "receive_time": 10.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.02,
+    "sequence_id": 110,
+    "capture_time": 11.0,
+    "receive_time": 11.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.12,
+    "sequence_id": 111,
+    "capture_time": 11.1,
+    "receive_time": 11.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.22,
+    "sequence_id": 112,
+    "capture_time": 11.2,
+    "receive_time": 11.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.32,
+    "sequence_id": 113,
+    "capture_time": 11.3,
+    "receive_time": 11.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.42,
+    "sequence_id": 114,
+    "capture_time": 11.4,
+    "receive_time": 11.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.52,
+    "sequence_id": 115,
+    "capture_time": 11.5,
+    "receive_time": 11.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.62,
+    "sequence_id": 116,
+    "capture_time": 11.6,
+    "receive_time": 11.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.72,
+    "sequence_id": 117,
+    "capture_time": 11.7,
+    "receive_time": 11.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.82,
+    "sequence_id": 118,
+    "capture_time": 11.8,
+    "receive_time": 11.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 11.92,
+    "sequence_id": 119,
+    "capture_time": 11.9,
+    "receive_time": 11.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.02,
+    "sequence_id": 120,
+    "capture_time": 12.0,
+    "receive_time": 12.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.12,
+    "sequence_id": 121,
+    "capture_time": 12.1,
+    "receive_time": 12.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.22,
+    "sequence_id": 122,
+    "capture_time": 12.2,
+    "receive_time": 12.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.32,
+    "sequence_id": 123,
+    "capture_time": 12.3,
+    "receive_time": 12.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.42,
+    "sequence_id": 124,
+    "capture_time": 12.4,
+    "receive_time": 12.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.52,
+    "sequence_id": 125,
+    "capture_time": 12.5,
+    "receive_time": 12.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.62,
+    "sequence_id": 126,
+    "capture_time": 12.6,
+    "receive_time": 12.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.72,
+    "sequence_id": 127,
+    "capture_time": 12.7,
+    "receive_time": 12.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.82,
+    "sequence_id": 128,
+    "capture_time": 12.8,
+    "receive_time": 12.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 12.92,
+    "sequence_id": 129,
+    "capture_time": 12.9,
+    "receive_time": 12.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.02,
+    "sequence_id": 130,
+    "capture_time": 13.0,
+    "receive_time": 13.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.12,
+    "sequence_id": 131,
+    "capture_time": 13.1,
+    "receive_time": 13.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.22,
+    "sequence_id": 132,
+    "capture_time": 13.2,
+    "receive_time": 13.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.32,
+    "sequence_id": 133,
+    "capture_time": 13.3,
+    "receive_time": 13.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.42,
+    "sequence_id": 134,
+    "capture_time": 13.4,
+    "receive_time": 13.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.52,
+    "sequence_id": 135,
+    "capture_time": 13.5,
+    "receive_time": 13.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.62,
+    "sequence_id": 136,
+    "capture_time": 13.6,
+    "receive_time": 13.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.72,
+    "sequence_id": 137,
+    "capture_time": 13.7,
+    "receive_time": 13.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.82,
+    "sequence_id": 138,
+    "capture_time": 13.8,
+    "receive_time": 13.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 13.92,
+    "sequence_id": 139,
+    "capture_time": 13.9,
+    "receive_time": 13.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.02,
+    "sequence_id": 140,
+    "capture_time": 14.0,
+    "receive_time": 14.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.12,
+    "sequence_id": 141,
+    "capture_time": 14.1,
+    "receive_time": 14.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.22,
+    "sequence_id": 142,
+    "capture_time": 14.2,
+    "receive_time": 14.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.32,
+    "sequence_id": 143,
+    "capture_time": 14.3,
+    "receive_time": 14.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.42,
+    "sequence_id": 144,
+    "capture_time": 14.4,
+    "receive_time": 14.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.52,
+    "sequence_id": 145,
+    "capture_time": 14.5,
+    "receive_time": 14.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.62,
+    "sequence_id": 146,
+    "capture_time": 14.6,
+    "receive_time": 14.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.72,
+    "sequence_id": 147,
+    "capture_time": 14.7,
+    "receive_time": 14.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.82,
+    "sequence_id": 148,
+    "capture_time": 14.8,
+    "receive_time": 14.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 14.92,
+    "sequence_id": 149,
+    "capture_time": 14.9,
+    "receive_time": 14.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.02,
+    "sequence_id": 150,
+    "capture_time": 15.0,
+    "receive_time": 15.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.12,
+    "sequence_id": 151,
+    "capture_time": 15.1,
+    "receive_time": 15.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.22,
+    "sequence_id": 152,
+    "capture_time": 15.2,
+    "receive_time": 15.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.32,
+    "sequence_id": 153,
+    "capture_time": 15.3,
+    "receive_time": 15.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.42,
+    "sequence_id": 154,
+    "capture_time": 15.4,
+    "receive_time": 15.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.52,
+    "sequence_id": 155,
+    "capture_time": 15.5,
+    "receive_time": 15.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.62,
+    "sequence_id": 156,
+    "capture_time": 15.6,
+    "receive_time": 15.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.72,
+    "sequence_id": 157,
+    "capture_time": 15.7,
+    "receive_time": 15.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.82,
+    "sequence_id": 158,
+    "capture_time": 15.8,
+    "receive_time": 15.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 15.92,
+    "sequence_id": 159,
+    "capture_time": 15.9,
+    "receive_time": 15.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.02,
+    "sequence_id": 160,
+    "capture_time": 16.0,
+    "receive_time": 16.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.12,
+    "sequence_id": 161,
+    "capture_time": 16.1,
+    "receive_time": 16.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.22,
+    "sequence_id": 162,
+    "capture_time": 16.2,
+    "receive_time": 16.22,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.32,
+    "sequence_id": 163,
+    "capture_time": 16.3,
+    "receive_time": 16.32,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.42,
+    "sequence_id": 164,
+    "capture_time": 16.4,
+    "receive_time": 16.42,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.52,
+    "sequence_id": 165,
+    "capture_time": 16.5,
+    "receive_time": 16.52,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.62,
+    "sequence_id": 166,
+    "capture_time": 16.6,
+    "receive_time": 16.62,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.72,
+    "sequence_id": 167,
+    "capture_time": 16.7,
+    "receive_time": 16.72,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.82,
+    "sequence_id": 168,
+    "capture_time": 16.8,
+    "receive_time": 16.82,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 16.92,
+    "sequence_id": 169,
+    "capture_time": 16.9,
+    "receive_time": 16.92,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 17.02,
+    "sequence_id": 170,
+    "capture_time": 17.0,
+    "receive_time": 17.02,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 17.12,
+    "sequence_id": 171,
+    "capture_time": 17.1,
+    "receive_time": 17.12,
+    "event": "observation_adopted"
+  },
+  {
+    "sim_time_s": 17.22,
+    "sequence_id": 172,
+    "capture_time": 17.2,
+    "receive_time": 17.22,
+    "event": "observation_adopted"
+  }
+]

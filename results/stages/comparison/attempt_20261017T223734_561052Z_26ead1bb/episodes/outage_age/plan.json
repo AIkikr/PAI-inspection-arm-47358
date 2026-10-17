@@ -1,0 +1,23 @@
+{
+  "planner": {
+    "reference_id": "guard_ablation_fixed_ab_v1",
+    "source": "control_reference",
+    "diagnostic": false,
+    "purpose": "guard_ablation",
+    "input": "監視方式の比較専用：固定順序 A → B。AIの言語正解率は評価しない。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"A\",\"B\"],\"finish\":\"home\"}",
+    "ai_accuracy_evaluated": false,
+    "note": "事前固定した制御比較用計画。AI出力の修正・代替ではない。",
+    "content_hash": "6d716ca749ff19c309a20b554aefc5ca85457b6d79006e629f5eb0ae29e323df"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "A",
+      "B"
+    ],
+    "finish": "home"
+  },
+  "accepted": true,
+  "reason": "accepted"
+}

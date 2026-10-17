@@ -1,0 +1,24 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Cを点検してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"C\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.7674,
+    "generated_tokens": 14,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "5f578489d369596b4fbe6892d1c88d7fddb1e62a27f527f93d48e4d3aa4ca0d1",
+    "content_hash": "3abb8291daefc5d8e691cc6a91d8a3aa11903d3d7a163dd5123d694b0af42595"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "C"
+    ],
+    "finish": "home"
+  },
+  "accepted": false,
+  "reason": "forbidden_target:C"
+}
