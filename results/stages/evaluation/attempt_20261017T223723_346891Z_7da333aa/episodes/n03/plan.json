@@ -1,0 +1,25 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Aの点検が終わったらBを点検してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"A\",\"B\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.8506,
+    "generated_tokens": 16,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "177418a0a8a0d3f77976a257ab0e8d645a8affd812a7d2e049d3f2a96a363b68",
+    "content_hash": "967e5b65d01a765a9a194f19afad500b32df3a00e9734d7664e2475a154b369a"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "A",
+      "B"
+    ],
+    "finish": "home"
+  },
+  "accepted": true,
+  "reason": "accepted"
+}

@@ -1,0 +1,25 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Bを先に確認し、その後Aを確認してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"B\",\"A\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.9063,
+    "generated_tokens": 16,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "a461142c1c3fd01bac25a083096077bf7e624a8e4eabd4b66ae2a484976fac94",
+    "content_hash": "920cb3bf1ebfc24fa07cffd811a0682ad7aa016a556dd0d9609967385315b8f9"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "B",
+      "A"
+    ],
+    "finish": "home"
+  },
+  "accepted": true,
+  "reason": "accepted"
+}

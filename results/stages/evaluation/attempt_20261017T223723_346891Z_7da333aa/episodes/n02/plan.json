@@ -1,0 +1,24 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "今回はBだけ確認してホームに戻って。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"B\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.7495,
+    "generated_tokens": 14,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "fb9531ea459ece20d609e4886eb2f86aed178da869f549269bed55d244f0a2d4",
+    "content_hash": "b16cab887f00907db4bcca9a99e59d6376c77f5ef76f77a1a52a5b75775d4cce"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "B"
+    ],
+    "finish": "home"
+  },
+  "accepted": true,
+  "reason": "accepted"
+}

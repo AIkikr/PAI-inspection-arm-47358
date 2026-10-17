@@ -1,0 +1,76 @@
+<mujoco model="original_four_dof_inspection_arm">
+      <compiler angle="radian"/>
+      <option timestep="0.005" integrator="implicitfast" gravity="0 0 -9.81"/>
+      <size njmax="1000" nconmax="200"/>
+      <visual>
+        <global offwidth="1024" offheight="640"/>
+        <quality shadowsize="2048"/>
+        <headlight ambient="0.45 0.45 0.45" diffuse="0.7 0.7 0.7" specular="0.1 0.1 0.1"/>
+      </visual>
+      <statistic center="0.28 0 0.3" extent="1.25"/>
+      <default>
+        <joint damping="0.8" armature="0.02" limited="true"/>
+        <geom friction="0.7 0.1 0.1" condim="3" density="850"/>
+        <motor ctrllimited="true" ctrlrange="-70 70"/>
+      </default>
+      <worldbody>
+        <light pos="0.0 -0.5 1.8" dir="0.2 0.2 -1"/>
+        <geom name="floor" type="plane" size="2 2 0.1" rgba="0.91 0.93 0.95 1"/>
+        <geom name="workbench" type="box" pos="0.47 0 0.045" size="0.30 0.39 0.045" rgba="0.30 0.35 0.40 1"/>
+        <geom name="pedestal" type="cylinder" pos="0 0 0.18" size="0.075 0.18"
+              rgba="0.16 0.20 0.26 1" contype="0" conaffinity="0"/>
+        
+        <geom name="panel_A" type="box" pos="0.47 -0.2 0.115"
+              size="0.062 0.062 0.025" rgba="0.15 0.62 0.70 1"/>
+        <geom name="indicator_A" type="cylinder" pos="0.495 -0.2 0.143"
+              size="0.012 0.003" rgba="0.82 0.98 0.91 1"/>
+        <geom name="line_A" type="box" pos="0.44499999999999995 -0.2 0.143"
+              size="0.007 0.033 0.003" rgba="0.10 0.14 0.18 1"/>
+        
+        <geom name="panel_B" type="box" pos="0.49 0.0 0.115"
+              size="0.062 0.062 0.025" rgba="0.95 0.64 0.19 1"/>
+        <geom name="indicator_B" type="cylinder" pos="0.515 0.0 0.143"
+              size="0.012 0.003" rgba="0.82 0.98 0.91 1"/>
+        <geom name="line_B" type="box" pos="0.46499999999999997 0.0 0.143"
+              size="0.007 0.033 0.003" rgba="0.10 0.14 0.18 1"/>
+        
+        <geom name="panel_C" type="box" pos="0.47 0.2 0.115"
+              size="0.062 0.062 0.025" rgba="0.78 0.24 0.26 1"/>
+        <geom name="indicator_C" type="cylinder" pos="0.495 0.2 0.143"
+              size="0.012 0.003" rgba="0.82 0.98 0.91 1"/>
+        <geom name="line_C" type="box" pos="0.44499999999999995 0.2 0.143"
+              size="0.007 0.033 0.003" rgba="0.10 0.14 0.18 1"/>
+        
+        <body name="yaw_body" pos="0 0 0.38">
+          <joint name="yaw" axis="0 0 1" range="-1.5 1.5"/>
+          <geom name="yaw_geom" type="sphere" size="0.05" mass="0.5" rgba="0.18 0.26 0.36 1"/>
+          <body name="upper_body">
+            <joint name="shoulder" axis="0 1 0" range="-2.2 1.2"/>
+            <geom name="upper_geom" type="capsule" fromto="0 0 0 0.32 0 0" size="0.027" mass="0.8" rgba="0.12 0.45 0.63 1"/>
+            <body name="forearm_body" pos="0.32 0 0">
+              <joint name="elbow" axis="0 1 0" range="0.15 2.7"/>
+              <geom name="elbow_geom" type="sphere" size="0.036" mass="0.15" rgba="0.18 0.26 0.36 1"/>
+              <geom name="forearm_geom" type="capsule" fromto="0 0 0 0.29 0 0" size="0.023" mass="0.5" rgba="0.17 0.59 0.72 1"/>
+              <body name="wrist_body" pos="0.29 0 0">
+                <joint name="wrist" axis="0 1 0" range="-2.2 2.2"/>
+                <geom name="camera_case" type="box" pos="0.035 0 0" size="0.035 0.031 0.022" mass="0.17" rgba="0.13 0.17 0.22 1"/>
+                <geom name="camera_lens" type="cylinder" pos="0.055 0 -0.024" size="0.012 0.003" mass="0.03" rgba="0.05 0.1 0.15 1"/>
+                <site name="camera_tip" pos="0.055 0 -0.031" size="0.004" rgba="0.9 0.9 0.2 0"/>
+                <camera name="inspection_camera" pos="0.055 0 -0.031" fovy="58"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </worldbody>
+      <contact>
+        <exclude body1="yaw_body" body2="upper_body"/>
+        <exclude body1="upper_body" body2="forearm_body"/>
+        <exclude body1="forearm_body" body2="wrist_body"/>
+      </contact>
+      <actuator>
+        <motor name="yaw_motor" joint="yaw"/>
+        <motor name="shoulder_motor" joint="shoulder"/>
+        <motor name="elbow_motor" joint="elbow"/>
+        <motor name="wrist_motor" joint="wrist"/>
+      </actuator>
+    </mujoco>

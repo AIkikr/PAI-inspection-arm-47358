@@ -1,0 +1,25 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Aの次にZを点検してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"A\",\"Z\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.8564,
+    "generated_tokens": 16,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "f027e3be800bdfdd132c9611958c3e0bf19e8c79ea41a043da2498fb481aadbe",
+    "content_hash": "97461b6c691a888d617e4532328d61d786250b33ff760c0dafa6c7fc1d451c4b"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "A",
+      "Z"
+    ],
+    "finish": "home"
+  },
+  "accepted": false,
+  "reason": "unknown_target:Z"
+}

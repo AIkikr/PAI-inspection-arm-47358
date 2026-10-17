@@ -1,0 +1,24 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Cには行かず、Aだけを点検してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"A\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.8069,
+    "generated_tokens": 14,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "f28a86cfc07a2f682de00ee62196034c645449709ae8edf25d486a6243d843af",
+    "content_hash": "c3fe49b74c09ca462fe5641e0b6de7d95e4dd249f20c6231dd47be6a25ec62f1"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "A"
+    ],
+    "finish": "home"
+  },
+  "accepted": true,
+  "reason": "accepted"
+}

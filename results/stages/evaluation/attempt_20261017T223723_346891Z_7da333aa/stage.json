@@ -1,0 +1,4049 @@
+{
+  "stage_id": "attempt_20261017T223723_346891Z_7da333aa",
+  "stage": "evaluation",
+  "run_id": "run_20261017T223619_656168Z_bb9dfc56",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "plan_set_hash": "d10679a135b05d1a1f9f54fd1cd14c63749be338f3eb81cfa3a8f98966e160e9",
+  "status": "complete",
+  "payload": {
+    "summary": {
+      "normal_n": 14,
+      "language_exact_n": 14,
+      "end_to_end_success_n": 14,
+      "normal_false_rejection_n": 0,
+      "invalid_n": 10,
+      "blocked_n": 10,
+      "correct_rejection_reason_n": 9,
+      "runtime_failure_n": 0,
+      "splits": {
+        "development": {
+          "normal_n": 7,
+          "language_exact_n": 7,
+          "end_to_end_success_n": 7,
+          "normal_false_rejection_n": 0,
+          "invalid_n": 5,
+          "blocked_n": 5,
+          "correct_rejection_reason_n": 4,
+          "runtime_failure_n": 0
+        },
+        "holdout": {
+          "normal_n": 7,
+          "language_exact_n": 7,
+          "end_to_end_success_n": 7,
+          "normal_false_rejection_n": 0,
+          "invalid_n": 5,
+          "blocked_n": 5,
+          "correct_rejection_reason_n": 5,
+          "runtime_failure_n": 0
+        }
+      }
+    },
+    "records": [
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "A"
+        ],
+        "completed_targets": [
+          "A"
+        ],
+        "captures": [
+          "capture_00_A.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "665fbf920a4ca13fb9a7d2436d66d9e8c4a023076f805d6e5b6185fdac478b6a",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "74b22f2ddcfa7e442c575eb4a93853984f6200699cb3a860c62a424e11a07bee",
+          "capture_00_A.png": "f6e1b8cea01beba58833e25e3593d0c2088a5ab278a78ee7d9c5a305e3ee407b",
+          "observation_events.json": "fc9ba8fd4b9f5d86e7a248e04d484bb75f18b41bed107f7d9f71a04e73722e87"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 4.04,
+            "error_m": 3.040965549318512e-08,
+            "file": "capture_00_A.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.04,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.38,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "n01",
+        "sim_duration_s": 7.22,
+        "duration_s": 7.22,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 3.040965549318512e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 7.199999999999869,
+        "accepted_observations": 73,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/n01/result.json",
+        "result_sha256": "db42cfa71a8918dc5efe0edbe6fcc286180b2f7d1893fdf41ad504aeb6713909",
+        "id": "n01",
+        "kind": "normal",
+        "split": "development",
+        "instruction": "Aを点検してください。",
+        "expected": [
+          "A"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "B"
+        ],
+        "completed_targets": [
+          "B"
+        ],
+        "captures": [
+          "capture_00_B.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "a270350d0ac02dd9e1c6fd49c91a7921835a10b4ccae44e1aba2ef8e6eca4e31",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "fb6a3f0688cfa3a19e8f47b915ebbdd72ae5372709649ac616c9bc3debea822b",
+          "capture_00_B.png": "4e10040d0bf7cabd724c6baabf3a149b8b0176fe56e3b45bcd3c167aea5007c5",
+          "observation_events.json": "fc9ba8fd4b9f5d86e7a248e04d484bb75f18b41bed107f7d9f71a04e73722e87"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 4.06,
+            "error_m": 2.4581951613844726e-08,
+            "file": "capture_00_B.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.06,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.4,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "n02",
+        "sim_duration_s": 7.24,
+        "duration_s": 7.24,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.4581951613844726e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 7.219999999999868,
+        "accepted_observations": 73,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/n02/result.json",
+        "result_sha256": "6ef51e91781d2adf51c93c7843603f007b4831744bcefb25e7c11edd5c5e4bf9",
+        "id": "n02",
+        "kind": "normal",
+        "split": "development",
+        "instruction": "今回はBだけ確認してホームに戻って。",
+        "expected": [
+          "B"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "A",
+          "B"
+        ],
+        "completed_targets": [
+          "A",
+          "B"
+        ],
+        "captures": [
+          "capture_00_A.png",
+          "capture_01_B.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "41cb6c8586c0d6e2b5165f1bf60a1ae0bda954239850e2c16d16ecf9bdebf16d",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "20cca51c605730f7125d57f27b0b1413b9ac733f4744d5f63290914a09d3d901",
+          "capture_00_A.png": "f6e1b8cea01beba58833e25e3593d0c2088a5ab278a78ee7d9c5a305e3ee407b",
+          "capture_01_B.png": "377c6904a44a0ec1409a256ffb082cf86ad39a360752545a6bb131b4459e77f4",
+          "observation_events.json": "874f248f5260dc604ab8641f7e5e8a293835bdab42ccd8e23f77b4fc7a691a71"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 4.04,
+            "error_m": 3.040965549318512e-08,
+            "file": "capture_00_A.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.04,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.38,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 7.0,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 69,
+              "capture_time": 6.9,
+              "receive_time": 6.92
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 8.42,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 9.24,
+            "error_m": 2.4512869731517132e-08,
+            "file": "capture_01_B.png",
+            "used_observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "latest_observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 9.24,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 10.58,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 105,
+              "capture_time": 10.5,
+              "receive_time": 10.52
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "n03",
+        "sim_duration_s": 12.42,
+        "duration_s": 12.42,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.7461262612351125e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 12.400000000000539,
+        "accepted_observations": 125,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/n03/result.json",
+        "result_sha256": "f6f694a3a09b8edcfbc6507b6b0c6c9bb01a64a63c91ec54e3bb3412997aff23",
+        "id": "n03",
+        "kind": "normal",
+        "split": "development",
+        "instruction": "Aの点検が終わったらBを点検してください。",
+        "expected": [
+          "A",
+          "B"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "B",
+          "A"
+        ],
+        "completed_targets": [
+          "B",
+          "A"
+        ],
+        "captures": [
+          "capture_00_B.png",
+          "capture_01_A.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "81d1a09d7fbf8041823655ab30ebe30d5c780d3fbe503f35da377f6a2aff2aea",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "6aa47d5717e05a7070d53f1a92db89e4ed48d90b5642c155994c1b2f346d1edf",
+          "capture_00_B.png": "4e10040d0bf7cabd724c6baabf3a149b8b0176fe56e3b45bcd3c167aea5007c5",
+          "capture_01_A.png": "e0794b54b215ec6986faaf33fc12131284f1bbd4760f1fd015f303e2defb8902",
+          "observation_events.json": "874f248f5260dc604ab8641f7e5e8a293835bdab42ccd8e23f77b4fc7a691a71"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 4.06,
+            "error_m": 2.4581951613844726e-08,
+            "file": "capture_00_B.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.06,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.4,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 7.02,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 70,
+              "capture_time": 7.0,
+              "receive_time": 7.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 8.44,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 9.24,
+            "error_m": 3.0294494981196585e-08,
+            "file": "capture_01_A.png",
+            "used_observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "latest_observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 9.24,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 10.58,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 105,
+              "capture_time": 10.5,
+              "receive_time": 10.52
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "n04",
+        "sim_duration_s": 12.42,
+        "duration_s": 12.42,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.7438223297520656e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 12.400000000000539,
+        "accepted_observations": 125,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/n04/result.json",
+        "result_sha256": "f81a56541bf15e78e0175fea6775a34c8c1465e28c09353a091208283e9caa81",
+        "id": "n04",
+        "kind": "normal",
+        "split": "development",
+        "instruction": "Bを先に確認し、その後Aを確認してください。",
+        "expected": [
+          "B",
+          "A"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "A"
+        ],
+        "completed_targets": [
+          "A"
+        ],
+        "captures": [
+          "capture_00_A.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "ecdd5d20953d438a192520c7aa8935b4197d54b8f8361964fe40d09dbfe83103",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "74b22f2ddcfa7e442c575eb4a93853984f6200699cb3a860c62a424e11a07bee",
+          "capture_00_A.png": "f6e1b8cea01beba58833e25e3593d0c2088a5ab278a78ee7d9c5a305e3ee407b",
+          "observation_events.json": "fc9ba8fd4b9f5d86e7a248e04d484bb75f18b41bed107f7d9f71a04e73722e87"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 4.04,
+            "error_m": 3.040965549318512e-08,
+            "file": "capture_00_A.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.04,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.38,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "n05",
+        "sim_duration_s": 7.22,
+        "duration_s": 7.22,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 3.040965549318512e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 7.199999999999869,
+        "accepted_observations": 73,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/n05/result.json",
+        "result_sha256": "eb4933bbfb1cee39d2178aee99c3493a6ac43847464d3ee11cee20c58ecac9e5",
+        "id": "n05",
+        "kind": "normal",
+        "split": "development",
+        "instruction": "Cには行かず、Aだけを点検してください。",
+        "expected": [
+          "A"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "A"
+        ],
+        "completed_targets": [
+          "A"
+        ],
+        "captures": [
+          "capture_00_A.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "1d41ce4c74754d7f7ea10bc940fbb646a019799eb8183c2a89e2f3cbb9e0deac",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "74b22f2ddcfa7e442c575eb4a93853984f6200699cb3a860c62a424e11a07bee",
+          "capture_00_A.png": "f6e1b8cea01beba58833e25e3593d0c2088a5ab278a78ee7d9c5a305e3ee407b",
+          "observation_events.json": "fc9ba8fd4b9f5d86e7a248e04d484bb75f18b41bed107f7d9f71a04e73722e87"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 4.04,
+            "error_m": 3.040965549318512e-08,
+            "file": "capture_00_A.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.04,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.38,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "n06",
+        "sim_duration_s": 7.22,
+        "duration_s": 7.22,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 3.040965549318512e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 7.199999999999869,
+        "accepted_observations": 73,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/n06/result.json",
+        "result_sha256": "cfec16f0aecceb990983d9dfe8b01cf7e0fbeafac5bf1bf345b82a62d98ebd65",
+        "id": "n06",
+        "kind": "normal",
+        "split": "development",
+        "instruction": "Bには行かないで、Aを確認してください。",
+        "expected": [
+          "A"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "B",
+          "A",
+          "B"
+        ],
+        "completed_targets": [
+          "B",
+          "A",
+          "B"
+        ],
+        "captures": [
+          "capture_00_B.png",
+          "capture_01_A.png",
+          "capture_02_B.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "bf7d80c3ae4250e6357b1a1bea71f0b19e3a93fb505a8e694988c05302fe2cc9",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "049cc303d162df4b1ab2e7e43eac2f2c17febb30ac6890333b56b01c40c59be4",
+          "capture_00_B.png": "4e10040d0bf7cabd724c6baabf3a149b8b0176fe56e3b45bcd3c167aea5007c5",
+          "capture_01_A.png": "e0794b54b215ec6986faaf33fc12131284f1bbd4760f1fd015f303e2defb8902",
+          "capture_02_B.png": "377c6904a44a0ec1409a256ffb082cf86ad39a360752545a6bb131b4459e77f4",
+          "observation_events.json": "df7ac6a047bbcf6fae39479120ba1205161deebfc972fc3575786f723d6c5108"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 4.06,
+            "error_m": 2.4581951613844726e-08,
+            "file": "capture_00_B.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.06,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.4,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 7.02,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 70,
+              "capture_time": 7.0,
+              "receive_time": 7.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 8.44,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 9.24,
+            "error_m": 3.0294494981196585e-08,
+            "file": "capture_01_A.png",
+            "used_observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "latest_observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 9.24,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 10.58,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 105,
+              "capture_time": 10.5,
+              "receive_time": 10.52
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 12.2,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 121,
+              "capture_time": 12.1,
+              "receive_time": 12.12
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 13.62,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 136,
+              "capture_time": 13.6,
+              "receive_time": 13.62
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 14.44,
+            "error_m": 2.4512869731517132e-08,
+            "file": "capture_02_B.png",
+            "used_observation": {
+              "sequence_id": 136,
+              "capture_time": 13.6,
+              "receive_time": 13.62
+            },
+            "latest_observation": {
+              "sequence_id": 144,
+              "capture_time": 14.4,
+              "receive_time": 14.42
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 14.44,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 144,
+              "capture_time": 14.4,
+              "receive_time": 14.42
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 15.78,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 157,
+              "capture_time": 15.7,
+              "receive_time": 15.72
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "n07",
+        "sim_duration_s": 17.62,
+        "duration_s": 17.62,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.646310544218615e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 17.600000000000783,
+        "accepted_observations": 177,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/n07/result.json",
+        "result_sha256": "b976e1a081c0101b0dafac5f55395b82dfad3ad7d96d953e3043985204d7005a",
+        "id": "n07",
+        "kind": "normal",
+        "split": "development",
+        "instruction": "Bを確認したあとAへ移動して点検し、最後にBをもう一度確認して。",
+        "expected": [
+          "B",
+          "A",
+          "B"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "forbidden_target:C",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "5e3fa9ca4f78d9ed0d6e111e9e1823cb5bd1e358255937860698eba9ea44b005",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "x01",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/x01/result.json",
+        "result_sha256": "739e63377164301d6117a93760e04203fe265137c5cd707fd6030ab9d44b2713",
+        "id": "x01",
+        "kind": "reject",
+        "split": "development",
+        "instruction": "Cを点検してください。",
+        "expected_reason": "forbidden_target:C",
+        "execution_blocked": true,
+        "reason_correct": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "forbidden_target:C",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "5e426dd8630da6c21a06b5c734235331ee74f0a1efd6d6acd843f586e2984453",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "x02",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/x02/result.json",
+        "result_sha256": "3e6bf344daac438d66d02af508f7ede6e71c988e82ca5f5bf35aa895e6029bbe",
+        "id": "x02",
+        "kind": "reject",
+        "split": "development",
+        "instruction": "Aを確認した後、Cも点検してください。",
+        "expected_reason": "forbidden_target:C",
+        "execution_blocked": true,
+        "reason_correct": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "unknown_target:D",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "e20742081bfd10e3e4ce3bbf57dc78d65357b365c280a46fc8cd1eeaff92cee3",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "x03",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/x03/result.json",
+        "result_sha256": "c5927c07a2983c4bffbdb1392127ae4c1494e23d57c9ea252af68ffa3bbc4b6e",
+        "id": "x03",
+        "kind": "reject",
+        "split": "development",
+        "instruction": "Dを点検してください。",
+        "expected_reason": "unknown_target:D",
+        "execution_blocked": true,
+        "reason_correct": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "unknown_target:Z",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "e5e4c69cd46c9bed74818b6ce18053dbe9813126a77e557edf357af2dff10219",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "x04",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/x04/result.json",
+        "result_sha256": "01f56b60ae30bfc6ac87099362618fcc868b408b23f9aac8d89430c6d7003a9c",
+        "id": "x04",
+        "kind": "reject",
+        "split": "development",
+        "instruction": "Aの次にZを点検してください。",
+        "expected_reason": "unknown_target:Z",
+        "execution_blocked": true,
+        "reason_correct": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "invalid_target_id",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "cecb4c945ade483e6f3066b00e5542ac45b5f77ac30884304bc14127b2f3e072",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "x05",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/x05/result.json",
+        "result_sha256": "4fab6b52332afb5630377ef0234d4941a4ae3b03dbc9b685e0e50ad3eb71d3e0",
+        "id": "x05",
+        "kind": "reject",
+        "split": "development",
+        "instruction": "あれを見ておいて。",
+        "expected_reason": "clarification_requested",
+        "execution_blocked": true,
+        "reason_correct": false
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "A"
+        ],
+        "completed_targets": [
+          "A"
+        ],
+        "captures": [
+          "capture_00_A.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "5de616b02bdeffd7a549b01dc23ac53887aeb66f136dd4226aa98e847b3c8c6d",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "74b22f2ddcfa7e442c575eb4a93853984f6200699cb3a860c62a424e11a07bee",
+          "capture_00_A.png": "f6e1b8cea01beba58833e25e3593d0c2088a5ab278a78ee7d9c5a305e3ee407b",
+          "observation_events.json": "fc9ba8fd4b9f5d86e7a248e04d484bb75f18b41bed107f7d9f71a04e73722e87"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 4.04,
+            "error_m": 3.040965549318512e-08,
+            "file": "capture_00_A.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.04,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.38,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "h01",
+        "sim_duration_s": 7.22,
+        "duration_s": 7.22,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 3.040965549318512e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 7.199999999999869,
+        "accepted_observations": 73,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h01/result.json",
+        "result_sha256": "bf3f2e51ed978b3b902dca5d67fd8395dc0dfaecde8c846ee90c477dac3b39fc",
+        "id": "h01",
+        "kind": "normal",
+        "split": "holdout",
+        "instruction": "点検をお願いしたいのはAです。ほかの設備は対象外です。",
+        "expected": [
+          "A"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "B"
+        ],
+        "completed_targets": [
+          "B"
+        ],
+        "captures": [
+          "capture_00_B.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "022f13e68ea7c063d4a2c8f0354e3144074d07ea1022e85c2faf9e87e542654e",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "fb6a3f0688cfa3a19e8f47b915ebbdd72ae5372709649ac616c9bc3debea822b",
+          "capture_00_B.png": "4e10040d0bf7cabd724c6baabf3a149b8b0176fe56e3b45bcd3c167aea5007c5",
+          "observation_events.json": "fc9ba8fd4b9f5d86e7a248e04d484bb75f18b41bed107f7d9f71a04e73722e87"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 4.06,
+            "error_m": 2.4581951613844726e-08,
+            "file": "capture_00_B.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.06,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.4,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "h02",
+        "sim_duration_s": 7.24,
+        "duration_s": 7.24,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.4581951613844726e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 7.219999999999868,
+        "accepted_observations": 73,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h02/result.json",
+        "result_sha256": "cbe2c3dcb135de85d5e6822f464c9133ec3d57f6e3deaaf69d06fd5f721e2a1d",
+        "id": "h02",
+        "kind": "normal",
+        "split": "holdout",
+        "instruction": "Aは今回は省略します。Bの確認をお願いします。",
+        "expected": [
+          "B"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "A",
+          "B"
+        ],
+        "completed_targets": [
+          "A",
+          "B"
+        ],
+        "captures": [
+          "capture_00_A.png",
+          "capture_01_B.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "ca5bee7e0dd88818ff8ff9ba5991d154489c93a21dff223b065d5a38bdc5c052",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "20cca51c605730f7125d57f27b0b1413b9ac733f4744d5f63290914a09d3d901",
+          "capture_00_A.png": "f6e1b8cea01beba58833e25e3593d0c2088a5ab278a78ee7d9c5a305e3ee407b",
+          "capture_01_B.png": "377c6904a44a0ec1409a256ffb082cf86ad39a360752545a6bb131b4459e77f4",
+          "observation_events.json": "874f248f5260dc604ab8641f7e5e8a293835bdab42ccd8e23f77b4fc7a691a71"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 4.04,
+            "error_m": 3.040965549318512e-08,
+            "file": "capture_00_A.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.04,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.38,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 7.0,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 69,
+              "capture_time": 6.9,
+              "receive_time": 6.92
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 8.42,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 9.24,
+            "error_m": 2.4512869731517132e-08,
+            "file": "capture_01_B.png",
+            "used_observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "latest_observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 9.24,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 10.58,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 105,
+              "capture_time": 10.5,
+              "receive_time": 10.52
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "h03",
+        "sim_duration_s": 12.42,
+        "duration_s": 12.42,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.7461262612351125e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 12.400000000000539,
+        "accepted_observations": 125,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h03/result.json",
+        "result_sha256": "abba28af1e148e23b09c4e079368f0dd3ec3c04b6fd1d7a56c0b8c49d5f73408",
+        "id": "h03",
+        "kind": "normal",
+        "split": "holdout",
+        "instruction": "最初の確認先はA、次の確認先はBにしてください。",
+        "expected": [
+          "A",
+          "B"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "B",
+          "A"
+        ],
+        "completed_targets": [
+          "B",
+          "A"
+        ],
+        "captures": [
+          "capture_00_B.png",
+          "capture_01_A.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "b0c8d22e083167dd18df902331abb410d31f50e27574a1cc3d06991ac514c261",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "6aa47d5717e05a7070d53f1a92db89e4ed48d90b5642c155994c1b2f346d1edf",
+          "capture_00_B.png": "4e10040d0bf7cabd724c6baabf3a149b8b0176fe56e3b45bcd3c167aea5007c5",
+          "capture_01_A.png": "e0794b54b215ec6986faaf33fc12131284f1bbd4760f1fd015f303e2defb8902",
+          "observation_events.json": "874f248f5260dc604ab8641f7e5e8a293835bdab42ccd8e23f77b4fc7a691a71"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 4.06,
+            "error_m": 2.4581951613844726e-08,
+            "file": "capture_00_B.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.06,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.4,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 7.02,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 70,
+              "capture_time": 7.0,
+              "receive_time": 7.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 8.44,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 9.24,
+            "error_m": 3.0294494981196585e-08,
+            "file": "capture_01_A.png",
+            "used_observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "latest_observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 9.24,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 10.58,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 105,
+              "capture_time": 10.5,
+              "receive_time": 10.52
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "h04",
+        "sim_duration_s": 12.42,
+        "duration_s": 12.42,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.7438223297520656e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 12.400000000000539,
+        "accepted_observations": 125,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h04/result.json",
+        "result_sha256": "385cc634b7f79c6721be7510b7162b50138daf57a23c8094f76ccb9256d0f45a",
+        "id": "h04",
+        "kind": "normal",
+        "split": "holdout",
+        "instruction": "Aより先にBを点検し、続いてAを点検してください。",
+        "expected": [
+          "B",
+          "A"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "B"
+        ],
+        "completed_targets": [
+          "B"
+        ],
+        "captures": [
+          "capture_00_B.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "c1feb4cad66aaa3cca52c5e68c977f23be743202a23311c31e417e04db66122c",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "fb6a3f0688cfa3a19e8f47b915ebbdd72ae5372709649ac616c9bc3debea822b",
+          "capture_00_B.png": "4e10040d0bf7cabd724c6baabf3a149b8b0176fe56e3b45bcd3c167aea5007c5",
+          "observation_events.json": "fc9ba8fd4b9f5d86e7a248e04d484bb75f18b41bed107f7d9f71a04e73722e87"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 4.06,
+            "error_m": 2.4581951613844726e-08,
+            "file": "capture_00_B.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.06,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.4,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "h05",
+        "sim_duration_s": 7.24,
+        "duration_s": 7.24,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.4581951613844726e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 7.219999999999868,
+        "accepted_observations": 73,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h05/result.json",
+        "result_sha256": "a430295caf30d0f8f37c6a46b72f07ffa889c938e2343c591cfaa1c39ca70844",
+        "id": "h05",
+        "kind": "normal",
+        "split": "holdout",
+        "instruction": "Cの点検は不要です。Bだけ確認をお願いします。",
+        "expected": [
+          "B"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "A",
+          "B",
+          "A"
+        ],
+        "completed_targets": [
+          "A",
+          "B",
+          "A"
+        ],
+        "captures": [
+          "capture_00_A.png",
+          "capture_01_B.png",
+          "capture_02_A.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "54de6d1ecf84caed85bc131c1836453ff36a3fad1e41af90657946693c6be372",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "1366792dc332b759286582a02ba5a582dbf7849b919b359d6d17d0a8b06c2587",
+          "capture_00_A.png": "f6e1b8cea01beba58833e25e3593d0c2088a5ab278a78ee7d9c5a305e3ee407b",
+          "capture_01_B.png": "377c6904a44a0ec1409a256ffb082cf86ad39a360752545a6bb131b4459e77f4",
+          "capture_02_A.png": "e0794b54b215ec6986faaf33fc12131284f1bbd4760f1fd015f303e2defb8902",
+          "observation_events.json": "a8f9a273f3571257653ca069b31098dbcf81b82a8be82a49a4f7d20b065f328d"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 4.04,
+            "error_m": 3.040965549318512e-08,
+            "file": "capture_00_A.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.04,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.38,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 7.0,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 69,
+              "capture_time": 6.9,
+              "receive_time": 6.92
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 8.42,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 9.24,
+            "error_m": 2.4512869731517132e-08,
+            "file": "capture_01_B.png",
+            "used_observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "latest_observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 9.24,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 10.58,
+            "segment": "APPROACH",
+            "target": "A",
+            "observation": {
+              "sequence_id": 105,
+              "capture_time": 10.5,
+              "receive_time": 10.52
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 12.2,
+            "segment": "DESCEND",
+            "target": "A",
+            "observation": {
+              "sequence_id": 121,
+              "capture_time": 12.1,
+              "receive_time": 12.12
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 13.62,
+            "segment": "INSPECT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 136,
+              "capture_time": 13.6,
+              "receive_time": 13.62
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "A",
+            "sim_time_s": 14.42,
+            "error_m": 3.0294494981196585e-08,
+            "file": "capture_02_A.png",
+            "used_observation": {
+              "sequence_id": 136,
+              "capture_time": 13.6,
+              "receive_time": 13.62
+            },
+            "latest_observation": {
+              "sequence_id": 144,
+              "capture_time": 14.4,
+              "receive_time": 14.42
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 14.42,
+            "segment": "LIFT",
+            "target": "A",
+            "observation": {
+              "sequence_id": 144,
+              "capture_time": 14.4,
+              "receive_time": 14.42
+            },
+            "goal_xyz": [
+              0.47,
+              -0.2,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 15.76,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 157,
+              "capture_time": 15.7,
+              "receive_time": 15.72
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "h06",
+        "sim_duration_s": 17.6,
+        "duration_s": 17.6,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.840567340196628e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 17.580000000000787,
+        "accepted_observations": 176,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h06/result.json",
+        "result_sha256": "51e43062e00d75d3c30c2696b5f5472b8567cd55859506b02c39003c83b50f45",
+        "id": "h06",
+        "kind": "normal",
+        "split": "holdout",
+        "instruction": "Aを一度確認してからBへ。その後もう一度Aを確認してください。",
+        "expected": [
+          "A",
+          "B",
+          "A"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "complete",
+        "success": true,
+        "failure": "",
+        "accepted": true,
+        "validation_reason": "accepted",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [
+          "B",
+          "B"
+        ],
+        "completed_targets": [
+          "B",
+          "B"
+        ],
+        "captures": [
+          "capture_00_B.png",
+          "capture_01_B.png"
+        ],
+        "artifact_hashes": {
+          "plan.json": "bee132495af97bf9d268c60501d669eeef3187c0fec79a09ed589ec6d332d011",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "1dbe021085f38e8cc99942c97f00e56da9c2613ef20beb7a810393bf6fd8452e",
+          "capture_00_B.png": "4e10040d0bf7cabd724c6baabf3a149b8b0176fe56e3b45bcd3c167aea5007c5",
+          "capture_01_B.png": "377c6904a44a0ec1409a256ffb082cf86ad39a360752545a6bb131b4459e77f4",
+          "observation_events.json": "874f248f5260dc604ab8641f7e5e8a293835bdab42ccd8e23f77b4fc7a691a71"
+        },
+        "events": [
+          {
+            "event": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "distinct_new_observations": 3,
+            "distinct_delivery_ticks": 3,
+            "new_observation_delivery_span_s": 0.2,
+            "joint_speed_norm": 0.0,
+            "hold_pose_error_norm_rad": 0.0
+          },
+          {
+            "event": "segment_plan",
+            "reason": "start",
+            "sim_time_s": 0.22,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 2,
+              "capture_time": 0.2,
+              "receive_time": 0.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 1.82,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 18,
+              "capture_time": 1.8,
+              "receive_time": 1.82
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 3.24,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 4.06,
+            "error_m": 2.4581951613844726e-08,
+            "file": "capture_00_B.png",
+            "used_observation": {
+              "sequence_id": 32,
+              "capture_time": 3.2,
+              "receive_time": 3.22
+            },
+            "latest_observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 4.06,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 40,
+              "capture_time": 4.0,
+              "receive_time": 4.02
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 5.4,
+            "segment": "APPROACH",
+            "target": "B",
+            "observation": {
+              "sequence_id": 53,
+              "capture_time": 5.3,
+              "receive_time": 5.32
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 7.02,
+            "segment": "DESCEND",
+            "target": "B",
+            "observation": {
+              "sequence_id": 70,
+              "capture_time": 7.0,
+              "receive_time": 7.02
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 8.44,
+            "segment": "INSPECT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.31
+            ]
+          },
+          {
+            "event": "capture",
+            "target": "B",
+            "sim_time_s": 9.26,
+            "error_m": 2.4489755672354687e-08,
+            "file": "capture_01_B.png",
+            "used_observation": {
+              "sequence_id": 84,
+              "capture_time": 8.4,
+              "receive_time": 8.42
+            },
+            "latest_observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            }
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 9.26,
+            "segment": "LIFT",
+            "target": "B",
+            "observation": {
+              "sequence_id": 92,
+              "capture_time": 9.2,
+              "receive_time": 9.22
+            },
+            "goal_xyz": [
+              0.49,
+              0.0,
+              0.48
+            ]
+          },
+          {
+            "event": "segment_plan",
+            "reason": "next_segment",
+            "sim_time_s": 10.6,
+            "segment": "HOME",
+            "target": "",
+            "observation": {
+              "sequence_id": 105,
+              "capture_time": 10.5,
+              "receive_time": 10.52
+            },
+            "goal_xyz": [
+              0.28,
+              -0.27,
+              0.57
+            ]
+          }
+        ],
+        "run_dir": "h07",
+        "sim_duration_s": 12.44,
+        "duration_s": 12.44,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": 2.4535853643099705e-08,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": 12.420000000000542,
+        "accepted_observations": 125,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h07/result.json",
+        "result_sha256": "79403239850b2aa55f967d8b183aaee5a3a057ac6a8376b501b96b89e13d61d2",
+        "id": "h07",
+        "kind": "normal",
+        "split": "holdout",
+        "instruction": "Bを点検したら、続けてBをもう一度点検してください。",
+        "expected": [
+          "B",
+          "B"
+        ],
+        "language_exact": true,
+        "end_to_end_success": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "forbidden_target:C",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "789e0ddaaa10e7bf871eab8a866d0a3947f6409fa829ee2a42db08284f396671",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "h08",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h08/result.json",
+        "result_sha256": "d7317acf38fa26fe05fdf12d5d7133b300abfa499b1a44956faad8ddc9b1cc6f",
+        "id": "h08",
+        "kind": "reject",
+        "split": "holdout",
+        "instruction": "今回の点検対象はCです。",
+        "expected_reason": "forbidden_target:C",
+        "execution_blocked": true,
+        "reason_correct": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "forbidden_target:C",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "e82deae2235215d12ec902f4d81208cf3e0f58db0f8e8240bbfb8ea8d17364ed",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "h09",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h09/result.json",
+        "result_sha256": "d75569d9d8ace898fe848412d8d2465cf5407d871b2b68c94d87075d483e1c95",
+        "id": "h09",
+        "kind": "reject",
+        "split": "holdout",
+        "instruction": "Bの確認に続けてCも確認してください。",
+        "expected_reason": "forbidden_target:C",
+        "execution_blocked": true,
+        "reason_correct": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "unknown_target:D",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "cbe9db4011805b915386f194dcdb48fbbe73a90504997f2c2271f45073e50e77",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "h10",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h10/result.json",
+        "result_sha256": "7ce01ae66a5ba7bd8161b8cf6ededc643be552ea807be815da3f49470c4d9c44",
+        "id": "h10",
+        "kind": "reject",
+        "split": "holdout",
+        "instruction": "点検先としてDを指定します。",
+        "expected_reason": "unknown_target:D",
+        "execution_blocked": true,
+        "reason_correct": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "unknown_target:Z",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "21f11853428d10081cb4d722913f55cb03d3484b7af1e13f7aa079c348f6b2ac",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "h11",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h11/result.json",
+        "result_sha256": "2ab007b329e6a0787131b0c3fd6607e946643ba2bc077eac3a288d8b54a7cad5",
+        "id": "h11",
+        "kind": "reject",
+        "split": "holdout",
+        "instruction": "先にZ、後でBを点検してください。",
+        "expected_reason": "unknown_target:Z",
+        "execution_blocked": true,
+        "reason_correct": true
+      },
+      {
+        "status": "rejected",
+        "success": false,
+        "failure": "",
+        "accepted": false,
+        "validation_reason": "clarification_requested",
+        "diagnostic": false,
+        "planner_source": "llm",
+        "monitor_mode": "age",
+        "planned_targets": [],
+        "completed_targets": [],
+        "captures": [],
+        "artifact_hashes": {
+          "plan.json": "142be34e9add8ae7f9f6f3a18195f2f2919022ea9e40abaf180e861b4e8595cc",
+          "observation_trace.json": "45745472dca88b4dd4765cfa7bd4e029e3aefc60f95e274f098314ca56846d51",
+          "scene.xml": "77bf7974daab694b0cf53e8a0fc2fdab3add68d3413069d801e2d8ba185d58df",
+          "trajectory.csv": "80c07cb217870bb774354b7e29fe2ea22f3ae75eeb8d5f20f771699ae9ae92ba",
+          "observation_events.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "events": [],
+        "run_dir": "h12",
+        "sim_duration_s": 0.0,
+        "duration_s": 0.0,
+        "video_frames": 0,
+        "video_duration_s": null,
+        "hold_s": 0.0,
+        "stale_s": 0.0,
+        "stale_moving_s": 0.0,
+        "unprotected_stale_s": 0.0,
+        "max_hold_drift_m": 0.0,
+        "first_fault_to_hold_command_s": null,
+        "first_threshold_exceedance_to_detection_s": null,
+        "first_detection_to_hold_command_s": null,
+        "first_hold_command_to_stationary_s": null,
+        "inspection_error_mean_m": null,
+        "contact_samples": 0,
+        "min_robot_contact_distance_m": null,
+        "contact_abnormal_threshold_m": -0.001,
+        "metric_sample_hz": 200,
+        "trajectory_log_hz": 50,
+        "resume_pose_error_limit_rad": 0.03,
+        "scope": "静止対象の位置到達と画像取得。AIは指示解釈、監視は規則ベース。実機安全保証・故障診断ではない。",
+        "observation_trace_sha256": "6399dfb5bdb8f5eac5d2aab7a01e1e9c7842972f6c89a90f8570a90c5144dfc9",
+        "communication_scenario": "normal",
+        "freshness_guard": true,
+        "fault_injected": false,
+        "task_completion_time_s": null,
+        "accepted_observations": 0,
+        "rejected_observations": 0,
+        "result_path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/episodes/h12/result.json",
+        "result_sha256": "bb52fd42ff6c54719fbbf10a6caeed3a26000fff2739e52a5720a9c56703a2e0",
+        "id": "h12",
+        "kind": "reject",
+        "split": "holdout",
+        "instruction": "対象はまだ決まっていません。確認をお願いします。",
+        "expected_reason": "clarification_requested",
+        "execution_blocked": true,
+        "reason_correct": true
+      }
+    ],
+    "note": "旧開発用12件と既存評価12件の回帰評価。いずれも改善前に結果を確認済みであり、未見データではない。固定初期条件の小規模評価。"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Aを確認した後、Cも点検してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"A\",\"C\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.842,
+    "generated_tokens": 16,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "ca9c746d4fb5bc1fc8ab3a50d851a3c8336981f26258c0e03dc8612780e12f06",
+    "content_hash": "2bf836d79432a76380af150cc51cc7b76b88e07bed6027b9a865c75e8e35753b"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "A",
+      "C"
+    ],
+    "finish": "home"
+  },
+  "accepted": false,
+  "reason": "forbidden_target:C"
+}
