@@ -1,0 +1,13 @@
+{
+  "source": "llm",
+  "diagnostic": false,
+  "input": "あれを見ておいて。",
+  "raw_output": "{\"decision\":\"execute\",\"targets\":[\"あれ\"],\"finish\":\"home\"}",
+  "inference_wall_s": 0.758,
+  "generated_tokens": 14,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "cache_key": "02960c679bfe7b177664fc905d4bcce52995833943c5ccf7f0f749bf5676cb10",
+  "content_hash": "36e0e8fefb95ec8b8569a991c9e1b78533f45f7f4febf3c3d730d2144c7dd0ea"
+}

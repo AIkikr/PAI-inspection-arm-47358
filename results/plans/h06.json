@@ -1,0 +1,13 @@
+{
+  "source": "llm",
+  "diagnostic": false,
+  "input": "Aを一度確認してからBへ。その後もう一度Aを確認してください。",
+  "raw_output": "{\"decision\":\"execute\",\"targets\":[\"A\",\"B\",\"A\"],\"finish\":\"home\"}",
+  "inference_wall_s": 0.9278,
+  "generated_tokens": 18,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "cache_key": "7042ecf1a86471084ce35d302b917cf4c5832f3d2e781419dc0a798405c39fe9",
+  "content_hash": "0bbc1eb7189b0767a5f8e0374e5be2e1cf671e2a60068a199cfade0dcdfee91b"
+}

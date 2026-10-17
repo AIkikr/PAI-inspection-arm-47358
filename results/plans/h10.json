@@ -1,0 +1,13 @@
+{
+  "source": "llm",
+  "diagnostic": false,
+  "input": "点検先としてDを指定します。",
+  "raw_output": "{\"decision\":\"execute\",\"targets\":[\"D\"],\"finish\":\"home\"}",
+  "inference_wall_s": 0.7889,
+  "generated_tokens": 14,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "cache_key": "dfe2f0bed7d59dd531e666988bccc790fe2fc06a97cd834115b3771b04f97cf0",
+  "content_hash": "32796626ed639842ef90de86b137571060260b5d7fdb453ffed9cc99cc4314ac"
+}

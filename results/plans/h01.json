@@ -1,0 +1,13 @@
+{
+  "source": "llm",
+  "diagnostic": false,
+  "input": "点検をお願いしたいのはAです。ほかの設備は対象外です。",
+  "raw_output": "{\"decision\":\"execute\",\"targets\":[\"A\"],\"finish\":\"home\"}",
+  "inference_wall_s": 0.7649,
+  "generated_tokens": 14,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "cache_key": "db466153cdec5308086b9ae6b18c8a9ef1533619fddd5dbe2104adcbd379cfc0",
+  "content_hash": "8da4d2673dc1227ac142a75df6ba0d2371834d8145b78d3623c8dc4077fec57c"
+}

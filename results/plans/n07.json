@@ -1,0 +1,13 @@
+{
+  "source": "llm",
+  "diagnostic": false,
+  "input": "Bを確認したあとAへ移動して点検し、最後にBをもう一度確認して。",
+  "raw_output": "{\"decision\":\"execute\",\"targets\":[\"B\",\"A\",\"B\"],\"finish\":\"home\"}",
+  "inference_wall_s": 1.2038,
+  "generated_tokens": 18,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "cache_key": "b093aa159dd0167571abf3b31714852c3c18659dedd6e60b3e3cb363ab135052",
+  "content_hash": "b552d4a84c0bce24895b67d3c5b7f856de8d2c980550ae18ea60b358932efeb5"
+}

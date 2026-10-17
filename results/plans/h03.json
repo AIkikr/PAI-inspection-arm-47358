@@ -1,0 +1,13 @@
+{
+  "source": "llm",
+  "diagnostic": false,
+  "input": "最初の確認先はA、次の確認先はBにしてください。",
+  "raw_output": "{\"decision\":\"execute\",\"targets\":[\"A\",\"B\"],\"finish\":\"home\"}",
+  "inference_wall_s": 0.8957,
+  "generated_tokens": 16,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "cache_key": "a4d6bb45837a0b49f31611335ed68163df04a4508e0f5c463bb8c4a20a0f7e0f",
+  "content_hash": "5e9ba74c398a249dd7dbd4deec6680c6458dbbba1a7b9a67be01a0f953f25db2"
+}

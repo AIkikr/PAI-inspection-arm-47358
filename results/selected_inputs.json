@@ -1,0 +1,17 @@
+{
+  "evaluation": {
+    "path": "stages/evaluation/attempt_20261017T223723_346891Z_7da333aa/stage.json",
+    "sha256": "7192c134cce33ddc97771c480def9300f8133bc22b9355c88e8d228871b1a7e6",
+    "stage_id": "attempt_20261017T223723_346891Z_7da333aa"
+  },
+  "comparison": {
+    "path": "stages/comparison/attempt_20261017T223734_561052Z_26ead1bb/stage.json",
+    "sha256": "234c9f386aaa188f570fc17a28d783dab2f974407c81d00a17bd93e2cbc140ad",
+    "stage_id": "attempt_20261017T223734_561052Z_26ead1bb"
+  },
+  "demonstrations": {
+    "path": "stages/demonstrations/attempt_20261017T223745_389656Z_c67ec0f0/stage.json",
+    "sha256": "fd7dfabd47a5c7b1a6b2f48534b7a5bf899f11193266dd85e157ffd028c5fe13",
+    "stage_id": "attempt_20261017T223745_389656Z_c67ec0f0"
+  }
+}

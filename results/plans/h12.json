@@ -1,0 +1,13 @@
+{
+  "source": "llm",
+  "diagnostic": false,
+  "input": "対象はまだ決まっていません。確認をお願いします。",
+  "raw_output": "{\"decision\":\"clarify\",\"targets\":[],\"finish\":\"home\"}",
+  "inference_wall_s": 0.7659,
+  "generated_tokens": 14,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "cache_key": "0dbcf19e1b2ee0de63d0fcd2b1306976ca4aac8209b75b08b76fe96c83a33713",
+  "content_hash": "54643dde69710db5d0028cba4d26678288de95ad22d50ea637fe94f161c6c0ea"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "llm",
+  "diagnostic": false,
+  "input": "Cの点検は不要です。Bだけ確認をお願いします。",
+  "raw_output": "{\"decision\":\"execute\",\"targets\":[\"B\"],\"finish\":\"home\"}",
+  "inference_wall_s": 0.7573,
+  "generated_tokens": 14,
+  "model_id": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+  "cache_key": "2f7c6577d8178865f0bf97dc44565fd194338d7d730a842ad1ec4f39fa3c8a5c",
+  "content_hash": "a910f0bc5741b7502f312ced212792e91e77e56ad79c10ab8898f742a866b107"
+}

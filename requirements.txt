@@ -1,0 +1,11 @@
+# Colab標準のtorch / numpyは置換しない。テキストモデルのみ使用。
+mujoco==3.3.7
+transformers==4.57.1
+accelerate==1.11.0
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+reportlab==4.4.4
+Pillow>=10.4,<13
+huggingface-hub>=0.34,<1
+safetensors>=0.4.3
+pypdf>=5,<7

@@ -1,0 +1,54 @@
+{
+  "account": "47358",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "user_instruction": "先にBを点検してから、Aを点検してください。Cには行かないでください。",
+  "user_expected_targets": [
+    "B",
+    "A"
+  ],
+  "own_changes": "未記入：自分が実際に変更した内容を記入してください。",
+  "reflection": "未記入：実行結果を見て分かったこと・失敗・限界を記入してください。",
+  "seed": 42,
+  "physics_dt": 0.005,
+  "control_dt": 0.02,
+  "fps": 20,
+  "stale_threshold": 0.5,
+  "fault_start": 2.5,
+  "fault_end": 6.5,
+  "recovery_fresh_s": 0.2,
+  "max_episode_s": 45.0,
+  "observation_period_s": 0.1,
+  "recovery_observations": 3,
+  "resume_speed_rad_s": 0.02,
+  "stop_dwell_s": 0.15,
+  "max_wait_s": 12.0,
+  "position_tolerance_m": 0.008,
+  "dwell_s": 0.8,
+  "targets": {
+    "A": {
+      "xyz": [
+        0.47,
+        -0.2,
+        0.31
+      ],
+      "allowed": true
+    },
+    "B": {
+      "xyz": [
+        0.49,
+        0.0,
+        0.31
+      ],
+      "allowed": true
+    },
+    "C": {
+      "xyz": [
+        0.47,
+        0.2,
+        0.31
+      ],
+      "allowed": false
+    }
+  }
+}
