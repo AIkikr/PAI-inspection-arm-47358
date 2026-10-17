@@ -1,0 +1,24 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "今回の点検対象はCです。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"C\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.7745,
+    "generated_tokens": 14,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "33a3a332e9435ec1c021d4617ee42ca43e922547219408eee22fb517a56fa2d6",
+    "content_hash": "8af9fc4c308fe63af240413a42f46cb4c4b162f9924253765619780bb1d05135"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "C"
+    ],
+    "finish": "home"
+  },
+  "accepted": false,
+  "reason": "forbidden_target:C"
+}

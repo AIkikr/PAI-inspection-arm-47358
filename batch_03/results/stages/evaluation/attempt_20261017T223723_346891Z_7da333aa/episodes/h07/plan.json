@@ -1,0 +1,25 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Bを点検したら、続けてBをもう一度点検してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"B\",\"B\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.8435,
+    "generated_tokens": 16,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "48f85a9dff5eabf0732d30c04982e6a9981d459286b44012ee31c58408c8155c",
+    "content_hash": "c092f0c2c39ea878dc06f777899ff669a478df0ac158966a206d8671ef90d67a"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "B",
+      "B"
+    ],
+    "finish": "home"
+  },
+  "accepted": true,
+  "reason": "accepted"
+}

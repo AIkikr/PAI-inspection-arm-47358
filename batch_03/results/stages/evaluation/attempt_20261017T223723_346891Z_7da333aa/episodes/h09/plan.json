@@ -1,0 +1,24 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Bの確認に続けてCも確認してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"C\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.7862,
+    "generated_tokens": 14,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "4a40f6cedc2fb3f898a1ae5d94e9b4bd1e76d4b63a3bb6da43489e32d3d6550d",
+    "content_hash": "136ec02560712d73e5501bf0ab0a36de621f352b79e8b657059cb630fd403d2d"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "C"
+    ],
+    "finish": "home"
+  },
+  "accepted": false,
+  "reason": "forbidden_target:C"
+}

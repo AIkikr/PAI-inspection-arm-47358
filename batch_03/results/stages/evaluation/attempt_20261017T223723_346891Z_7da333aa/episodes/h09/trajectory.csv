@@ -1,0 +1,1 @@
+sim_time_s,state,target,adopted_sequence_id,used_sequence_id,capture_time,receive_time,observation_age_s,receipt_age_s,healthy,holding,tip_error_m,tip_x,tip_y,tip_z,joint_speed_norm,q0,q1,q2,q3

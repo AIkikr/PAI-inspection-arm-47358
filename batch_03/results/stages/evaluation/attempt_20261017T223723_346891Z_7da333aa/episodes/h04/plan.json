@@ -1,0 +1,25 @@
+{
+  "planner": {
+    "source": "llm",
+    "diagnostic": false,
+    "input": "Aより先にBを点検し、続いてAを点検してください。",
+    "raw_output": "{\"decision\":\"execute\",\"targets\":[\"B\",\"A\"],\"finish\":\"home\"}",
+    "inference_wall_s": 0.8897,
+    "generated_tokens": 16,
+    "model_id": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "contract_hash": "42c8493f0eded490f2c127c9784e1a939ae0f2c603b6983a1da2705c4cb72bb7",
+    "cache_key": "9ac293c109684b1fbc77e89f0de507e7adc215cb68d4a9fc3bc8d49ccf6e782c",
+    "content_hash": "e9b60960dcbd24882080ba68bf27d3d49a11463bdaa30e8faa784959cebfdd9b"
+  },
+  "parsed": {
+    "decision": "execute",
+    "targets": [
+      "B",
+      "A"
+    ],
+    "finish": "home"
+  },
+  "accepted": true,
+  "reason": "accepted"
+}
